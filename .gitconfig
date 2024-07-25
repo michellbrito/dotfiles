@@ -1,0 +1,14 @@
+[user]
+	email = michellbp@msn.com
+	name = michell brito
+[core]
+	editor = code --wait
+[alias]
+	co = !git checkout
+	pfwl = !git push --force-with-lease
+	adcm = !git add -A && git commit
+	rbi = !git rebase -i
+	rbum = !git fetch upstream && git rebase upstream/master
+	rbom = !git fetch origin && git rebase origin/master
+	hist = log --pretty=format:\"%C(yellow)%h%Creset %ad | %s%Cred%d%Creset %Cblue[%an]%Creset\" --graph --date=short
+	br = for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
