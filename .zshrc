@@ -1,0 +1,6 @@
+export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+export EDITOR="code --wait"
+alias youtube="cd ~/../../Volumes/Public/youtube"
+alias source="source ~/.zshrc"
+alias edit="code ~/.zshrc"
